@@ -1,0 +1,50 @@
+{
+	"name": "unity-code",
+	"displayName": "Unity Code",
+	"description": "All Predefine Code you need for Unity3D development",
+	"version": "0.1.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/purisahib/vscode-unity-code"
+	},
+	"author": {
+		"name": "Pradeep puri Goswami",
+		"email": "pradeeppurigoswami7@gmail.com",
+		"url": "https://github.com/purisahib/"
+	},
+	"bugs": {
+		"url": "https://github.com/purisahib/vscode-unity-code",
+		"email": "pradeeppurigoswami7@gmail.com"
+	},
+	"publisher": "purisahib",
+	"engines": {
+		"vscode": "^1.53.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"keywords": [
+		"unity",
+		"monobehaviour",
+		"csharp",
+		"gamedev",
+		"snippet"
+	],
+	"homepage": "https://github.com/purisahib/vscode-unity-code",
+	"icon": "images/icon.png",
+	"galleryBanner": {
+		"color": "#b5bcca",
+		"theme": "light"
+	},
+	"contributes": {
+		"snippets": [
+			{
+				"language": "csharp",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"scripts": {
+		"build": "vsce package"
+	}
+}
